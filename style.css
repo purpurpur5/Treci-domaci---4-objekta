@@ -1,0 +1,64 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+ul{
+	float: right;
+}
+
+.clearfix{
+	clear: both;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #ffffff;
+	height: 50px;
+	border-bottom: 2px solid black;
+}
+
+li a{
+	text-decoration: none;
+	margin-right: 10px;
+}
+/*pojma nemam za hight sta treba*/
+article{
+	position: fixed;
+	height: 500px;
+	width: 100%;
+}
+
+.isti{
+	position:relative;
+	top: 50px;
+	right: -50px;
+	width: 200px;
+	height: auto;
+	border: 1px solid #242424;
+	margin: 30px;
+	display: inline-block;
+}
+p{font-size: 12px;
+	text-align: left;
+	margin:10px;	
+}
+
+.pozicija{
+	position: absolute;
+	top: -25px;
+	right: 75px;
+	height: 50px;
+	width: 50px;
+	border:1px solid #242424;
+	border-radius: 50%;
+	background-color: #242424;
+}
+.tekst{
+	margin-top: 50px;
+}
